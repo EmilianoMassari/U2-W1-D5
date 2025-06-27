@@ -326,7 +326,7 @@ body {
   vertical-align: middle;
   display: inline-block;
 }
-
+/* MOBILE */
 @media (max-width: 768px) {
   .navbar {
     padding: 0.7rem 0.7rem 0.7rem 0.7rem;
@@ -345,7 +345,7 @@ body {
     display: none;
   }
 }
-
+/* TABLET */
 @media (max-width: 480px) {
   .navbar {
     display: flex;
@@ -400,6 +400,7 @@ body {
     gap: 0.5rem;
   }
 }
+/* DESKTOP */
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero {
     position: relative;

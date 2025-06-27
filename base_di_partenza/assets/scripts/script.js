@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 // Animazione delle "M" nell'SVG
-// (random blink anche sui path dell'SVG artwork-m)
 document.addEventListener("DOMContentLoaded", function () {
   const svg = document.querySelector("svg.artwork-m")
   if (svg) {
